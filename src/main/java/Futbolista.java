@@ -1,3 +1,5 @@
+package futbol;
+
 public abstract class Futbolista {
 
     private String nombre;
