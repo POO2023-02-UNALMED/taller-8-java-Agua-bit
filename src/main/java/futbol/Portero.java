@@ -12,16 +12,16 @@ public class Portero extends Futbolista{
     }
 
     @Override
+    public boolean jugarConLasManos() {
+        return false;
+    }
+
+    @Override
     public String toString() {
         return  "El futbolista " + this.getNombre() + " tiene " + this.getEdad() + ", y juega de " + this.getPosicion() +
                 " con el dorsal " + this.dorsal + ". Le han marcado " + this.golesMarcados;
     }
-
-    @Override
-    public boolean juegaConLasManos(){
-        return true;
-    }
-
+    
     @Override
     public int compareTo(Object e) {
         if (e instanceof Portero){
