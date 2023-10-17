@@ -13,7 +13,7 @@ public class Portero extends Futbolista{
 
     @Override
     public boolean jugarConLasManos() {
-        return false;
+        return true;
     }
 
     @Override
